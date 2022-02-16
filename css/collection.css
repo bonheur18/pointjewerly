@@ -1,0 +1,108 @@
+@import url(reset.css);
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#wrap{width: 100%;}
+#header_wrap{
+    width: 100%;
+    background-color: rgba(255,255,255,30%);
+z-index: 99;}
+#header{width: 62.5%; height: 150px; margin: 0 auto;  position: relative;
+}
+.language{position: absolute; top:60px; left: 0; }
+.lang_1{float: left; }
+.lang_2{float: left; margin-left: 10px;}
+
+.logo a{position: absolute; top:60px; left: 50%; transform: translate(-50%,-50%);
+font-size: 40px; color: #000; font-family: 'InkLipquid';}
+
+.my_page{position: absolute; top:60px; right: 0;}
+.cart{float: left;}
+.login{float:left; margin-left: 20px;}
+
+
+nav{position: absolute; left: 0; bottom: 0;}
+nav ul{width: 1200px;}
+nav ul li{float: left; width: 6%; font-size: 18px;  
+    color: #000;  transition: 0.6s; text-align: center;}
+nav ul .nav_2{margin-left: 12.8%; }
+nav ul li:hover{color: #000; border-bottom: #000 1px solid; 
+box-sizing: border-box; padding-bottom: 5px;}
+
+
+#season_wrap{width: 100%; }
+#season{width: 1200px; height: 92px; margin: 0 auto; position: relative; }
+#season ul{position: absolute; bottom:0;}
+.ss_1{float: left;}
+.ss_1_22{float: left;}
+.ss_2{float: left; padding-left: 20px;}
+.ss_2_21{float: left;  padding-left: 20px;}
+.ss_3{float: left; padding-left: 20px;}
+.ss_3_20{float: left; padding-left: 20px;}
+.ss_1 a{font-size: 14px;}
+.ss_1 a:hover{color: #999;}
+.ss_1_22 a{font-size: 14px; border-bottom: 1px #000 solid; box-sizing: border-box; 
+            font-weight: bold;}
+.ss_2 a{font-size: 14px;}
+.ss_2 a:hover{color: #999;}
+.ss_2_21 a{font-size: 14px; border-bottom: 1px #000 solid; box-sizing: border-box; 
+            font-weight: bold;}
+.ss_3 a{font-size: 14px;}
+.ss_3 a:hover{color: #999;}
+.ss_3_20 a{font-size: 14px; border-bottom: 1px #000 solid; box-sizing: border-box; 
+            font-weight: bold;}
+
+
+
+
+
+
+#product_wrap{width: 100%; padding-top: 70px;}
+#product{width: 1200px; margin: 0 auto;} 
+
+.pd_1{width: 100%; height: 385px; }
+.pd_2{width: 100%; height: 385px;  margin-top: 70px;}
+.pd_3{width: 100%; height: 385px;  margin-top: 70px;}
+
+.pd_1_1{width: 32.266%; height: 385px;
+    float: left; box-sizing: border-box;}
+.pd_1_2{width: 32.266%; height: 385px; 
+    margin-left: 1.6%;  float: left; box-sizing: border-box;}
+
+
+.pd_2_1{width: 32.266%; height: 385px; border: red 1px solid; 
+    float: left; box-sizing: border-box;}
+.pd_2_2{width: 32.266%; height: 385px; border: red 1px solid; 
+    margin-left: 1.6%;  float: left; box-sizing: border-box;}
+
+.pd_3_1{width: 32.266%; height: 385px; border: red 1px solid; 
+    float: left; box-sizing: border-box;}
+.pd_3_2{width: 32.266%; height: 385px; border: red 1px solid; 
+    margin-left: 1.6%;  float: left; box-sizing: border-box;}
+
+
+
+    #footer_wrap{width: 100%; border-top: 1px #000 solid ; margin-top: 70px;}
+    #footer{width: 1200px; padding-top: 50px; height: 200px;  margin: 0 auto;}
+    
+    .f_box_1{width: 33.333%; float: left;}
+    .f_box_2{width: 33.333%; float: left;}
+    .f_box_3{width: 33.333%; float: left;}
+    
+    .box_1_text1{font-size: 20px; color: #222; }
+    .box_1_text2{font-size: 30px; color: #111; padding-top: 20px; }
+    .box_1_text3{font-size: 14px; color: #222; padding-top: 10px;}
+    
+    .box_2_text1{font-size: 20px; color: #222;}
+    .box_2_text2{font-size: 14px; color: #222; padding-top: 20px;}
+    .box_2_text2_2 a{font-size: 14px; color: #222; width:10px; transition: 0.6s;}
+    .box_2_text2_2 a:hover{font-size: 14px; color: #999; border: none;}
+    
+    .f_box_3 p{font-size: 12px; color: #222;line-height: 18px; }
+    .copyright{font-size: 14px; color: #222; line-height: 60px; text-align: center;}
